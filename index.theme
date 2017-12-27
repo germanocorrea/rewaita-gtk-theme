@@ -1,0 +1,9 @@
+[X-GNOME-Metatheme]
+Name=Rewaita
+Type=X-GNOME-Metatheme
+Comment=There is only one
+Encoding=UTF-8
+GtkTheme=Rewaita
+IconTheme=Rewaita
+CursorTheme=Rewaita
+CursorSize=24
