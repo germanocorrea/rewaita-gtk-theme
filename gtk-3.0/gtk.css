@@ -1,2 +1,26 @@
 /* uses the Adwaita theme as base */
 @import url("resource:///org/gtk/libgtk/theme/Adwaita/gtk-contained.css");
+
+.titlebar, headerbar, button {
+    background: #f7f7f7;
+}
+
+button:hover {
+    background: #f6f2f2;
+}
+
+button:checked {
+    background: #d7d5d5;
+}
+
+button.suggested-action {
+    background-color: #4a90d9;
+}
+
+slider {
+    background: white;
+}
+
+switch {
+    background: #4a90d9;
+}
