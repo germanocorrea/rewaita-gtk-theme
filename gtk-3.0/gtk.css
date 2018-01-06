@@ -1,11 +1,11 @@
 /* uses the Adwaita theme as base */
 @import url("resource:///org/gtk/libgtk/theme/Adwaita/gtk-contained.css");
 
-.titlebar, headerbar, button {
+.titlebar, headerbar, button, button.titlebutton {
     background: #f7f7f7;
 }
 
-button:hover {
+button:hover, button.titlebutton:hover {
     background: #f6f2f2;
 }
 
