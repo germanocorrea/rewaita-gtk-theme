@@ -1,7 +1,12 @@
 /* uses the Adwaita theme as base */
 @import url("resource:///org/gtk/libgtk/theme/Adwaita/gtk-contained-dark.css");
 
-.titlebar, headerbar, menubar {
+window.csd .titlebar:not(headerbar),
+window.csd .titlebar,
+window.csd,
+.titlebar,
+headerbar,
+headerbar.titlebar, menubar {
     background: #383838;
 }
 
